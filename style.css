@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;1,400&display=swap');
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.logo img{
+    height: 9rem;
+    width: 12rem;
+    margin-left: 20px;
+    margin-top: 1px;
+}
+.button{
+    margin: 15px 20px;
+    padding: 5px 0px;
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none;
+}
+.one{
+    background-image:  url("./images/netflixbacground.jpg");
+    background-size: cover;
+    border-bottom: 8px solid #222;
+    width: 100%;
+}
+.color-overlay{
+    width: 100%;
+    height: 120vh;
+    background-image: radial-gradient(rgba(0,0,0,0.3), rgba(0,0,0));
+
+}
+.grid_container1{
+    /*display: grid;
+    grid-template-columns: 71rem 60rem;*/
+    display: flex;
+    justify-content: space-between;
+}
+.foreword{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 100px;
+}
+
+.mail{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    border-radius: 8px;
+    margin-bottom: 187px;
+}
+.mail input{
+    width: 500px;
+    padding: 6px;
+    outline: none;
+    font-size: large;
+}
+.mail button{
+    width: 200px;
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+    font-size: x-large;
+}
+/*section 1 ends*/
+/*section 2 starts*/
+.two{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    max-width: 90rem;
+    color: white;
+    border-bottom: 8px solid #222;
+}
+.two img{
+    width: 510px;
+}
+.two .tv{
+    z-index: 1;
+    position: relative;
+    padding-bottom:50px;
+}
+.video_animation video{
+    position:absolute;
+    object-fit: contain;
+    object-position: center;
+    width: 23.1rem;
+    top: 80px;
+    right: 73px;
+    z-index: 3;
+}
+.tvnote{
+    padding:100px 0px;
+    font-size: x-large;
+}
+/*section 2 ends*/
+/*section 3 starts*/
+.three{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+.three img{
+    height: 400px;
+    width: 520px;
+    padding: 10px 25px;
+    padding-bottom: 50px;
+}
+.girlnote{
+    padding-top: 100px;
+    padding-left: 70px;
+    font-size: xx-large;
+    /*font-weight: bold;*/
+}
+/*section 3 ends*/
+/*section 4 starts*/
+.four{
+    display: flex;
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    border-bottom: 8px solid #222;
+    padding-left: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*section 4 ends*/
+/*section 5 starts*/
+.five{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 90rem;
+    color: white;
+    background-color: black;
+    border-bottom: 8px solid #222;
+}
+.five img{
+    height: 400px;
+    width: 500px;
+    padding: 60px 0px;
+}
+.kidsnote{
+    padding-top: 110px;
+    font-size: xx-large;
+}
+/*section 5 ends*/
+/*section 6 starts*/
+.six{
+    background-color:black;
+    border-bottom: 8px solid #222;
+   /* margin-bottom: 3px;*/
+    color: white;
+    display: flex;
+    padding: 70px 45px;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30px auto;
+}
+.faq details{
+    background-color: #222;
+    margin: 10px;
+    font-size: x-large;
+    
+}
+.faq{
+    margin-bottom: 45px;
+}
+.membership{
+    font-size: x-large;
+}
+.faq summary{
+
+    width: 49rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faqheader{
+    font-size: xx-large;
+}
+/*section 6 ends*/
+/*footer starts here*/
+footer{
+    background-color: black;
+    border-bottom: 8px solid #222;
+    max-width: 90rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.foot{
+    display: flex;
+}
+.foot ul{
+    margin: 10px auto;
+    padding: 0px 10px;
+    line-height: 35px;
+    font-size: 15px;
+    justify-content: space-evenly;
+}
+.foot ul span{
+    color: #737373;
+    margin: 0px 20px;
+}
+a:link{
+    text-decoration: none;
+}
+.question a{
+    color:#737373;
+    font-size: 18px;
+    padding: 100px 50px;
+}
+
+/*footer ends here*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
