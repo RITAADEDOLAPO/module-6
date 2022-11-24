@@ -2,18 +2,21 @@
 
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*font-family: 'montserrat',sans-serif;*/
 }
+
 .logo img{
     height: 9rem;
     width: 12rem;
     margin-left: 20px;
     margin-top: 1px;
 }
+
 .button{
-    margin: 15px 20px;
-    padding: 5px 0px;
-    height: 50px;
-    width: 100px;
+    margin: 20px 15px;
+    padding: 0px 0px;
+    height: 30px;
+    width: 90px;
     color: white;
     background-color: red;
     text-align: center;
@@ -23,32 +26,47 @@
     font-size: 18px;
     text-decoration: none;
 }
+
+.button a{
+    padding: 0px 0px;
+}
+
 .one{
     background-image:  url("./images/netflixbacground.jpg");
     background-size: cover;
     border-bottom: 8px solid #222;
     width: 100%;
 }
+
 .color-overlay{
     width: 100%;
     height: 120vh;
     background-image: radial-gradient(rgba(0,0,0,0.3), rgba(0,0,0));
-
 }
+
 .grid_container1{
-    /*display: grid;
-    grid-template-columns: 71rem 60rem;*/
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
+
 .foreword{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*font-family: 'montserrat',sans-serif;*/
     color: white;
     text-align: center;
     font-size: x-large;
     margin-top: 100px;
 }
-
+.foreword h1{
+    font-size: 50px;
+}
+.foreword p{
+    font-size: x-large;
+}
+.foreword .ready{
+    font-size: 20px;
+    
+}
 .mail{
     display: flex;
     justify-content: center;
@@ -56,12 +74,14 @@
     border-radius: 8px;
     margin-bottom: 187px;
 }
+
 .mail input{
     width: 500px;
     padding: 6px;
     outline: none;
     font-size: large;
 }
+
 .mail button{
     width: 200px;
     color: white;
@@ -80,14 +100,17 @@
     color: white;
     border-bottom: 8px solid #222;
 }
+
 .two img{
     width: 510px;
 }
+
 .two .tv{
     z-index: 1;
     position: relative;
     padding-bottom:50px;
 }
+
 .video_animation video{
     position:absolute;
     object-fit: contain;
@@ -97,6 +120,7 @@
     right: 73px;
     z-index: 3;
 }
+
 .tvnote{
     padding:100px 0px;
     font-size: x-large;
@@ -105,22 +129,60 @@
 /*section 3 starts*/
 .three{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px auto;
     flex-direction: row;
     color: white;
     background-color: black;
     border-bottom: 8px solid #222;
 }
+
 .three img{
     height: 400px;
-    width: 520px;
-    padding: 10px 25px;
-    padding-bottom: 50px;
+    width: 500px;
 }
+
+.three .girl{
+    position: relative;
+}
+
+.black{
+    position: absolute;
+    border: 2px solid #737373;
+    border-radius: 14px;
+    background-color: black;
+    height: 85px;
+    width: 20rem;
+    top: 17.5rem;
+    left: 5.5rem;
+}
+
+.strange img{
+    width: 58px;
+    height: 71px;
+}
+
+.strange{
+    position: absolute;
+    top: 18rem;
+    left: 6.2rem;
+}
+
+.strangenote{
+    position: absolute;
+    top: 18.7rem;
+    left: 10.5rem;
+}
+
+.strangenote span{
+    color: blue;
+}
+
 .girlnote{
     padding-top: 100px;
     padding-left: 70px;
     font-size: xx-large;
-    /*font-weight: bold;*/
 }
 /*section 3 ends*/
 /*section 4 starts*/
@@ -144,11 +206,13 @@
     background-color: black;
     border-bottom: 8px solid #222;
 }
+
 .five img{
     height: 400px;
     width: 500px;
     padding: 60px 0px;
 }
+
 .kidsnote{
     padding-top: 110px;
     font-size: xx-large;
@@ -158,7 +222,6 @@
 .six{
     background-color:black;
     border-bottom: 8px solid #222;
-   /* margin-bottom: 3px;*/
     color: white;
     display: flex;
     padding: 70px 45px;
@@ -166,28 +229,67 @@
     align-items: center;
     max-width: 30px auto;
 }
+
 .faq details{
     background-color: #222;
     margin: 10px;
     font-size: x-large;
-    
+    padding: 0px 20px;
+    outline: none;
+    cursor: pointer;
 }
+
 .faq{
     margin-bottom: 45px;
 }
-.membership{
-    font-size: x-large;
-}
-.faq summary{
 
+.membership{
+    font-size: large;
+}
+
+.faq summary{
     width: 49rem;
     height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
+.faq details p{
+    padding: 15px 0px;
+}
+
+.faq details span{
+    font-size: xx-large;
+}
+
 .faqheader{
     font-size: xx-large;
+}
+
+.mail2{
+    display: flex;
+    justify-content: center;
+    height: 60px;
+    margin-bottom: 20px;
+}
+.mail2 input{
+    width: 500px;
+    padding: 6px;
+    outline: none;
+    font-size: larger;
+}
+.mail2 button{
+    width: 200px;
+    color: white;
+    background-color: red;
+    border: none;
+    outline: none;
+    font-size: x-large;
+}
+.mail2 input,
+.mail2 button{
+    border-radius: 5px;
 }
 /*section 6 ends*/
 /*footer starts here*/
@@ -201,13 +303,16 @@ footer{
 }
 .foot{
     display: flex;
+    margin: 0px auto;
 }
 .foot ul{
-    margin: 10px auto;
+    margin: 10px 25px;
     padding: 0px 10px;
     line-height: 35px;
     font-size: 15px;
-    justify-content: space-evenly;
+}
+.foot ul li span:hover{
+    text-decoration: underline;
 }
 .foot ul span{
     color: #737373;
@@ -216,12 +321,27 @@ footer{
 a:link{
     text-decoration: none;
 }
-.question a{
+.question p{
     color:#737373;
     font-size: 18px;
-    padding: 100px 50px;
+    margin: 6px 215px;
+    margin-top: 80px;
 }
-
+.question a{
+    color: #737373;
+}
+.question a:hover{
+    text-decoration: underline;
+}
+.question2 p{
+    color:#737373;
+    font-size: 15px;
+    margin: 0px 215px;
+    margin-bottom: 80px;
+}
+.question2 a{
+    color: #737373;
+}
 /*footer ends here*/
 
 
